@@ -850,6 +850,10 @@ section {
         margin-bottom: 6rem;
     }
 
+    .contact-content-con .left-contact .abbrev{
+        display: none;
+    }
+
     .contact-content-con .left-contact .contact-info .contact-item p {
         color: var(--color-grey-7);
     }
@@ -1100,6 +1104,15 @@ section {
     }
     .contact-content-con .left-contact .contact-icon a {
         margin-right: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .contact-content-con .left-contact .full-text{
+        display: none;
+    }
+    .contact-content-con .left-contact .abbrev{
+        display: inline-block;
     }
 }
 
