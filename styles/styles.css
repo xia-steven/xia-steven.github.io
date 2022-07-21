@@ -22,11 +22,11 @@
 }
 
 .light-mode {
-    --color-primary: #ffffff;
+    --color-primary: #e3e3e3;
     --color-secondary: #049dcb;
     --color-white: #454e56;
     --color-black: #000;
-    --color-grey0: #f8f8f8;
+    --color-grey0: #e3e3e3;
     --color-grey-1: #495157;
     --color-grey-2: #ffffff;
     --color-grey-3: #6c7983;
@@ -192,7 +192,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 18rem;
+    padding-left: 30%;
 }
 .header-content .left-header .name {
     font-size: 3rem;
