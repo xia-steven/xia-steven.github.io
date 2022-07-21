@@ -378,6 +378,7 @@ section {
 .timeline .timeline-item {
     position: relative;
     padding-left: 3rem;
+    padding-right: 1rem;
     border-left: 1px solid var(--color-grey-5);
 	padding-bottom: 2rem;
 }
@@ -1055,6 +1056,12 @@ section {
     }
     .contact-item {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .timeline {
+        width: 100%;
     }
 }
 
