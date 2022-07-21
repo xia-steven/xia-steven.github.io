@@ -401,6 +401,11 @@ section {
     color: var(--color-secondary);
     transition: 0.4s;
 }
+
+.timeline .timeline-item .abbrev-text {
+    display: none;
+}
+
 .timeline .timeline-item .tl-icon i {
     font-size: 1.3rem;
 }
@@ -1054,6 +1059,15 @@ section {
     }
 }
 
+@media screen and (max-width: 520px) {
+    .timeline .timeline-item .full-text {
+        display: none;
+    }
+    .timeline .timeline-item .abbrev-text {
+        display: inline-block;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .contact-content-con .left-contact .contact-icon a {
         margin-right: 1rem;
@@ -1066,7 +1080,7 @@ section {
         padding-right: 0;
     }
     .timeline .timeline-item p {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
