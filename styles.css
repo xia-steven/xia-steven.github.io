@@ -1066,17 +1066,19 @@ section {
     }
     .contact-content-con .left-contact .contact-icon a {
         margin-right: 0.7rem;
-        width: 35px;
-        height: 35px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
     .contact-content-con .left-contact {
         text-align: center;
     }
     .contact-item {
         flex-direction: column;
+    }
+    .contact-content-con .left-contact .contact-icon a {
+        width: 35px;
+        height: 35px;
     }
 }
 
