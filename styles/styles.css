@@ -987,6 +987,9 @@ section {
     .contact-item {
         max-width: 80%;
     }
+    .left-header {
+        justify-content: left;
+    }
     .left-header .name {
         text-align: left;
     }
