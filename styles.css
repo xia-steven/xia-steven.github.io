@@ -630,6 +630,9 @@ section {
     justify-content: center;
     font-size: 1.3rem;
 }
+.contact-content-con .left-contact .abbrev{
+    display: none;
+}
 .contact-content-con .right-contact {
     flex: 3;
     margin-left: 3rem;
@@ -848,10 +851,6 @@ section {
 
     .contact-content-con .right-contact {
         margin-bottom: 6rem;
-    }
-
-    .contact-content-con .left-contact .abbrev{
-        display: none;
     }
 
     .contact-content-con .left-contact .contact-info .contact-item p {
