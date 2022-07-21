@@ -393,6 +393,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.4s;
+}
+.timeline .timeline-item .tl-icon:hover {
+    cursor: pointer;
+    background-color: var(--color-white);
+    color: var(--color-secondary);
+    transition: 0.4s;
 }
 .timeline .timeline-item .tl-icon i {
     font-size: 1.3rem;
@@ -1050,12 +1057,35 @@ section {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .contact-content-con .left-contact .contact-icon a {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .contact-content-con .left-contact .contact-icon {
+        margin-top: 1rem;
+    }
+    .contact-content-con .left-contact .contact-icon a {
+        margin-right: 0.7rem;
+        width: 35px;
+        height: 35px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .contact-content-con .left-contact {
         text-align: center;
     }
     .contact-item {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .controls .control {
+        margin: 1rem 0.7rem;
     }
 }
 
