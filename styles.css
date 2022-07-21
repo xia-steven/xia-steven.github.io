@@ -406,6 +406,10 @@ section {
     display: none;
 }
 
+.timeline .timeline-item .left-padding {
+    padding-left: 1rem;
+}
+
 .timeline .timeline-item .tl-icon i {
     font-size: 1.3rem;
 }
@@ -1068,6 +1072,12 @@ section {
     }
 }
 
+@media screen and (max-width: 468px) {
+    .timeline .timeline-item p {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .contact-content-con .left-contact .contact-icon a {
         margin-right: 1rem;
@@ -1097,6 +1107,9 @@ section {
     .contact-content-con .left-contact .contact-icon a {
         width: 45px;
         height: 45px;
+    }
+    .timeline .timeline-item .left-padding {
+        padding-left: 0.5rem;
     }
 }
 
