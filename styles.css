@@ -24,7 +24,7 @@
 }
 
 .light-mode {
-    --color-primary: #f8f8f8;
+    --color-primary: #fefefe;
     --color-secondary: #01cae8;
     --color-white: #454e56;
     --color-black: #000;
@@ -452,13 +452,18 @@ section {
 }
 .portfolios .portfolio-item {
     position: relative;
-    border-radius: 15px;
+    border-radius: 17px;
+    border: 2px solid var(--color-white);
 }
-.portfolios .portfolio-item img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 15px;
+.portfolios .portfolio-item h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.portfolios .portfolio-item p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 .portfolios .portfolio-item .hover-items {
     width: 100%;
@@ -795,20 +800,6 @@ section {
         margin: 1rem 1rem;
     }
 
-    /* .about-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .about-container .right-about {
-        grid-template-columns: repeat(1, 1fr);
-        padding-top: 2.5rem;
-    }
-    .about-container .left-about {
-        padding-right: 0;
-    }
-    .about-container .left-about p {
-        padding-left: 0;
-    } */
-
     .timeline {
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
@@ -837,9 +828,13 @@ section {
         flex-direction: column;
     }
 
+    .contact-content-con .left-contact h4 {
+        margin-top: 0;
+    }
+
     .contact-content-con .right-contact {
         margin-left: 0;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
         margin-bottom: 6rem;
     }
 
