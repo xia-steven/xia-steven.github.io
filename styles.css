@@ -512,7 +512,7 @@ section {
 .portfolios .portfolio-item p {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .portfolios .portfolio-item .hover-items {
@@ -536,6 +536,8 @@ section {
     font-size: 1.5rem;
     color: var(--color-white);
     margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .portfolios .portfolio-item .hover-items .icons {
